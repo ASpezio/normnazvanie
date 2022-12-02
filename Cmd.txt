@@ -1,0 +1,6 @@
+cd *путь*
+git init
+git commit -m *название*
+git branch -M main
+git remote add origin https://github.com/ASpezio/normnazvanie.git
+git push -u origin main
