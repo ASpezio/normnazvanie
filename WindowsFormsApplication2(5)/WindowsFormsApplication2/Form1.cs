@@ -10,6 +10,7 @@ using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using ConsoleApp3;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using ConsoleApp1;
 
 namespace WindowsFormsApplication2
 {
@@ -293,6 +294,7 @@ namespace WindowsFormsApplication2
 
         private void buttonrav_Click(object sender, EventArgs e)
         {
+            string otvet;
             label1.Text = textBox1.Text;
             switch (rez)
             {
@@ -346,6 +348,16 @@ namespace WindowsFormsApplication2
                     rezultat = Matan.MatRadTr(a, b, c, R);
                     textBox1.Text = rezultat.ToString();
                     label1.Text = "Ответ: " + rezultat;
+                    break;
+                //case 10:
+                //    rezultat = QuadraticEquation(b, a, c);
+                //    textBox1.Text = rezultat.ToString();
+                //    label1.Text = "Ответ: " + rezultat;
+                //    break;
+                case 11:
+                    otvet = QuadraticEquation.Korni(a.ToString(), b.ToString(), c.ToString());
+                    textBox1.Text = otvet;
+                    label1.Text = "Ответ: " + otvet;
                     break;
 
                 default:
@@ -405,6 +417,18 @@ namespace WindowsFormsApplication2
         {
             label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт - Площадь прямоугольного треугольника по двум катетам";
             rez = 6;
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт -  Решения квадратных уравнений";
+            rez = 11;
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт - Дискриминант";
+            rez = 11;
         }
 
         private void button14_Click(object sender, EventArgs e)
