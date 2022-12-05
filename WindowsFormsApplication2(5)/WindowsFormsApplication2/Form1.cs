@@ -417,6 +417,16 @@ namespace WindowsFormsApplication2
                     textBox1.Text = rezultat.ToString();
                     label1.Text = "Ответ: " + rezultat;
                     break;
+                case 22:
+                    rezultat = alg.RaznostKub(a, b);
+                    textBox1.Text = rezultat.ToString();
+                    label1.Text = "Ответ: " + rezultat;
+                    break;
+                case 23:
+                    rezultat = alg.RaznostkKvadrat(a, b);
+                    textBox1.Text = rezultat.ToString();
+                    label1.Text = "Ответ: " + rezultat;
+                    break;
 
                 default:
                     break;
@@ -552,6 +562,18 @@ namespace WindowsFormsApplication2
         {
             label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт -  Нахождение кинетической энергии  ";
             rez = 21;
+        }
+
+        private void button30_Click(object sender, EventArgs e)
+        {
+            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт -  Нахождение куб разности ";
+            rez = 22;
+        }
+
+        private void button31_Click(object sender, EventArgs e)
+        {
+            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт -  Нахождение куб разности ";
+            rez = 23;
         }
 
         private void button20_Click(object sender, EventArgs e)

@@ -62,6 +62,9 @@ namespace WindowsFormsApplication2
             this.label2 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button29 = new System.Windows.Forms.Button();
+            this.button28 = new System.Windows.Forms.Button();
+            this.button27 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
@@ -74,9 +77,8 @@ namespace WindowsFormsApplication2
             this.button14 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
+            this.button30 = new System.Windows.Forms.Button();
+            this.button31 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.SuspendLayout();
@@ -92,7 +94,7 @@ namespace WindowsFormsApplication2
             this.textBox1.Margin = new System.Windows.Forms.Padding(5);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(962, 50);
+            this.textBox1.Size = new System.Drawing.Size(996, 50);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "0";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -120,9 +122,9 @@ namespace WindowsFormsApplication2
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button18.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button18.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button18.Location = new System.Drawing.Point(810, 408);
+            this.button18.Location = new System.Drawing.Point(810, 111);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(94, 34);
+            this.button18.Size = new System.Drawing.Size(94, 62);
             this.button18.TabIndex = 28;
             this.button18.Text = "Площадь треугольника по радиусу описанной окружности и трем сторонам";
             this.button18.UseVisualStyleBackColor = false;
@@ -135,9 +137,9 @@ namespace WindowsFormsApplication2
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button17.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button17.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button17.Location = new System.Drawing.Point(910, 408);
+            this.button17.Location = new System.Drawing.Point(910, 111);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(94, 34);
+            this.button17.Size = new System.Drawing.Size(94, 62);
             this.button17.TabIndex = 27;
             this.button17.Text = "Сторона";
             this.button17.UseVisualStyleBackColor = false;
@@ -150,9 +152,9 @@ namespace WindowsFormsApplication2
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button16.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button16.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button16.Location = new System.Drawing.Point(710, 408);
+            this.button16.Location = new System.Drawing.Point(710, 111);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(94, 35);
+            this.button16.Size = new System.Drawing.Size(94, 62);
             this.button16.TabIndex = 26;
             this.button16.Text = "Радиус описанной окружности";
             this.button16.UseVisualStyleBackColor = false;
@@ -165,9 +167,9 @@ namespace WindowsFormsApplication2
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button15.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button15.Location = new System.Drawing.Point(610, 408);
+            this.button15.Location = new System.Drawing.Point(610, 111);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(94, 35);
+            this.button15.Size = new System.Drawing.Size(94, 62);
             this.button15.TabIndex = 25;
             this.button15.Text = "Площадь прямоугольного треугольника по двум катетам";
             this.button15.UseVisualStyleBackColor = false;
@@ -577,6 +579,8 @@ namespace WindowsFormsApplication2
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.Black;
+            this.tabPage1.Controls.Add(this.button31);
+            this.tabPage1.Controls.Add(this.button30);
             this.tabPage1.Controls.Add(this.button29);
             this.tabPage1.Controls.Add(this.button28);
             this.tabPage1.Controls.Add(this.button27);
@@ -627,6 +631,39 @@ namespace WindowsFormsApplication2
             this.tabPage1.Size = new System.Drawing.Size(1340, 705);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
+            // 
+            // button29
+            // 
+            this.button29.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button29.Location = new System.Drawing.Point(103, 602);
+            this.button29.Name = "button29";
+            this.button29.Size = new System.Drawing.Size(94, 34);
+            this.button29.TabIndex = 44;
+            this.button29.Text = "Eк";
+            this.button29.UseVisualStyleBackColor = true;
+            this.button29.Click += new System.EventHandler(this.button29_Click);
+            // 
+            // button28
+            // 
+            this.button28.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button28.Location = new System.Drawing.Point(203, 602);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(94, 34);
+            this.button28.TabIndex = 43;
+            this.button28.Text = "Eп";
+            this.button28.UseVisualStyleBackColor = true;
+            this.button28.Click += new System.EventHandler(this.button28_Click);
+            // 
+            // button27
+            // 
+            this.button27.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button27.Location = new System.Drawing.Point(303, 602);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(94, 34);
+            this.button27.TabIndex = 42;
+            this.button27.Text = "Fупр";
+            this.button27.UseVisualStyleBackColor = true;
+            this.button27.Click += new System.EventHandler(this.button27_Click);
             // 
             // button26
             // 
@@ -756,38 +793,27 @@ namespace WindowsFormsApplication2
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             // 
-            // button27
+            // button30
             // 
-            this.button27.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button27.Location = new System.Drawing.Point(303, 602);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(94, 34);
-            this.button27.TabIndex = 42;
-            this.button27.Text = "Fупр";
-            this.button27.UseVisualStyleBackColor = true;
-            this.button27.Click += new System.EventHandler(this.button27_Click);
+            this.button30.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button30.Location = new System.Drawing.Point(710, 509);
+            this.button30.Name = "button30";
+            this.button30.Size = new System.Drawing.Size(94, 34);
+            this.button30.TabIndex = 45;
+            this.button30.Text = "(a-b)^3";
+            this.button30.UseVisualStyleBackColor = true;
+            this.button30.Click += new System.EventHandler(this.button30_Click);
             // 
-            // button28
+            // button31
             // 
-            this.button28.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button28.Location = new System.Drawing.Point(203, 602);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(94, 34);
-            this.button28.TabIndex = 43;
-            this.button28.Text = "Eп";
-            this.button28.UseVisualStyleBackColor = true;
-            this.button28.Click += new System.EventHandler(this.button28_Click);
-            // 
-            // button29
-            // 
-            this.button29.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button29.Location = new System.Drawing.Point(103, 602);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(94, 34);
-            this.button29.TabIndex = 44;
-            this.button29.Text = "Eк";
-            this.button29.UseVisualStyleBackColor = true;
-            this.button29.Click += new System.EventHandler(this.button29_Click);
+            this.button31.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button31.Location = new System.Drawing.Point(810, 509);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(94, 33);
+            this.button31.TabIndex = 46;
+            this.button31.Text = "a^2-b^2";
+            this.button31.UseVisualStyleBackColor = true;
+            this.button31.Click += new System.EventHandler(this.button31_Click);
             // 
             // Form1
             // 
@@ -860,6 +886,8 @@ namespace WindowsFormsApplication2
         private System.Windows.Forms.Button button27;
         private System.Windows.Forms.Button button28;
         private System.Windows.Forms.Button button29;
+        private System.Windows.Forms.Button button30;
+        private System.Windows.Forms.Button button31;
     }
 }
 

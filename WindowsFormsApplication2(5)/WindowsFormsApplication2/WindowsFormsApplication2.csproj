@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="algebr.cs" />
     <Compile Include="Fizik.cs" />
+    <Compile Include="Kub_raznost_Vert.cs" />
     <Compile Include="lab_Dima1.cs" />
     <Compile Include="Matan.cs" />
     <Compile Include="Form1.cs">
