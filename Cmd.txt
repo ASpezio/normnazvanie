@@ -1,5 +1,7 @@
 cd *путь*
-git init
+git clone https://github.com/ASpezio/normnazvanie.git
+cd *путь cd *путь папки клона*
+Скидывайте свою работу/изменяйте файлы
 git commit -m *название*
 git branch -M main
 git remote add origin https://github.com/ASpezio/normnazvanie.git
