@@ -101,9 +101,10 @@ namespace WindowsFormsApplication2
             this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button14.Location = new System.Drawing.Point(485, 398);
+            this.button14.ForeColor = System.Drawing.Color.Transparent;
+            this.button14.Location = new System.Drawing.Point(485, 445);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(478, 79);
+            this.button14.Size = new System.Drawing.Size(515, 79);
             this.button14.TabIndex = 29;
             this.button14.Text = "Узнать a,b,c,R";
             this.button14.UseVisualStyleBackColor = true;
@@ -115,9 +116,10 @@ namespace WindowsFormsApplication2
             this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button18.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button18.Location = new System.Drawing.Point(848, 219);
+            this.button18.ForeColor = System.Drawing.Color.Transparent;
+            this.button18.Location = new System.Drawing.Point(806, 401);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(115, 170);
+            this.button18.Size = new System.Drawing.Size(94, 34);
             this.button18.TabIndex = 28;
             this.button18.Text = "Площадь треугольника по радиусу описанной окружности и трем сторонам";
             this.button18.UseVisualStyleBackColor = true;
@@ -129,9 +131,10 @@ namespace WindowsFormsApplication2
             this.button17.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button17.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button17.Location = new System.Drawing.Point(727, 219);
+            this.button17.ForeColor = System.Drawing.Color.Transparent;
+            this.button17.Location = new System.Drawing.Point(906, 401);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(115, 171);
+            this.button17.Size = new System.Drawing.Size(94, 34);
             this.button17.TabIndex = 27;
             this.button17.Text = "Сторона";
             this.button17.UseVisualStyleBackColor = true;
@@ -143,9 +146,10 @@ namespace WindowsFormsApplication2
             this.button16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button16.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button16.Location = new System.Drawing.Point(606, 219);
+            this.button16.ForeColor = System.Drawing.Color.Transparent;
+            this.button16.Location = new System.Drawing.Point(706, 401);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(115, 169);
+            this.button16.Size = new System.Drawing.Size(94, 35);
             this.button16.TabIndex = 26;
             this.button16.Text = "Радиус описанной окружности";
             this.button16.UseVisualStyleBackColor = true;
@@ -157,9 +161,10 @@ namespace WindowsFormsApplication2
             this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button15.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button15.Location = new System.Drawing.Point(485, 219);
+            this.button15.ForeColor = System.Drawing.Color.Transparent;
+            this.button15.Location = new System.Drawing.Point(606, 401);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(115, 169);
+            this.button15.Size = new System.Drawing.Size(94, 35);
             this.button15.TabIndex = 25;
             this.button15.Text = "Площадь прямоугольного треугольника по двум катетам";
             this.button15.UseVisualStyleBackColor = true;
@@ -171,7 +176,8 @@ namespace WindowsFormsApplication2
             this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button13.Location = new System.Drawing.Point(848, 128);
+            this.button13.ForeColor = System.Drawing.Color.Transparent;
+            this.button13.Location = new System.Drawing.Point(486, 356);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(115, 80);
             this.button13.TabIndex = 23;
@@ -185,7 +191,8 @@ namespace WindowsFormsApplication2
             this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button12.Location = new System.Drawing.Point(727, 128);
+            this.button12.ForeColor = System.Drawing.Color.Transparent;
+            this.button12.Location = new System.Drawing.Point(485, 266);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(115, 80);
             this.button12.TabIndex = 22;
@@ -199,7 +206,8 @@ namespace WindowsFormsApplication2
             this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button11.Location = new System.Drawing.Point(606, 128);
+            this.button11.ForeColor = System.Drawing.Color.Transparent;
+            this.button11.Location = new System.Drawing.Point(485, 176);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(115, 80);
             this.button11.TabIndex = 21;
@@ -213,7 +221,8 @@ namespace WindowsFormsApplication2
             this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button10.Location = new System.Drawing.Point(485, 128);
+            this.button10.ForeColor = System.Drawing.Color.Transparent;
+            this.button10.Location = new System.Drawing.Point(485, 86);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(115, 80);
             this.button10.TabIndex = 20;
@@ -229,7 +238,7 @@ namespace WindowsFormsApplication2
             this.buttonplusminus.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonplusminus.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonplusminus.ForeColor = System.Drawing.Color.Brown;
-            this.buttonplusminus.Location = new System.Drawing.Point(367, 355);
+            this.buttonplusminus.Location = new System.Drawing.Point(365, 355);
             this.buttonplusminus.Name = "buttonplusminus";
             this.buttonplusminus.Size = new System.Drawing.Size(113, 80);
             this.buttonplusminus.TabIndex = 19;
@@ -301,7 +310,7 @@ namespace WindowsFormsApplication2
             this.buttonpro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonpro.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonpro.ForeColor = System.Drawing.Color.Brown;
-            this.buttonpro.Location = new System.Drawing.Point(367, 86);
+            this.buttonpro.Location = new System.Drawing.Point(364, 86);
             this.buttonpro.Margin = new System.Windows.Forms.Padding(5);
             this.buttonpro.Name = "buttonpro";
             this.buttonpro.Size = new System.Drawing.Size(113, 80);
@@ -318,7 +327,7 @@ namespace WindowsFormsApplication2
             this.buttonrav.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonrav.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonrav.ForeColor = System.Drawing.Color.Brown;
-            this.buttonrav.Location = new System.Drawing.Point(367, 446);
+            this.buttonrav.Location = new System.Drawing.Point(365, 445);
             this.buttonrav.Margin = new System.Windows.Forms.Padding(5);
             this.buttonrav.Name = "buttonrav";
             this.buttonrav.Size = new System.Drawing.Size(115, 80);
@@ -336,7 +345,7 @@ namespace WindowsFormsApplication2
             this.buttonmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonmin.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonmin.ForeColor = System.Drawing.Color.Brown;
-            this.buttonmin.Location = new System.Drawing.Point(367, 175);
+            this.buttonmin.Location = new System.Drawing.Point(364, 176);
             this.buttonmin.Margin = new System.Windows.Forms.Padding(5);
             this.buttonmin.Name = "buttonmin";
             this.buttonmin.Size = new System.Drawing.Size(113, 80);
@@ -354,7 +363,7 @@ namespace WindowsFormsApplication2
             this.buttonsumm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonsumm.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonsumm.ForeColor = System.Drawing.Color.Brown;
-            this.buttonsumm.Location = new System.Drawing.Point(367, 265);
+            this.buttonsumm.Location = new System.Drawing.Point(365, 266);
             this.buttonsumm.Margin = new System.Windows.Forms.Padding(5);
             this.buttonsumm.Name = "buttonsumm";
             this.buttonsumm.Size = new System.Drawing.Size(113, 80);
@@ -566,7 +575,7 @@ namespace WindowsFormsApplication2
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(975, 540);
+            this.ClientSize = new System.Drawing.Size(1347, 540);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.button17);
