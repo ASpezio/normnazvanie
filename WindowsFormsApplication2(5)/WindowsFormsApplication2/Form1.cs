@@ -12,6 +12,9 @@ using ConsoleApp3;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using ConsoleApp1;
 using WorkWithClass;
+using Project_K;
+
+
 
 namespace WindowsFormsApplication2
 {
@@ -379,6 +382,26 @@ namespace WindowsFormsApplication2
                     textBox1.Text = rezultat.ToString();
                     label1.Text = "Ответ: " + rezultat;
                     break;
+                case 15:
+                    rezultat = FSY.MathSokr(a, b);
+                    textBox1.Text = rezultat.ToString();
+                    label1.Text = "Ответ: " + rezultat;
+                    break;
+                case 16:
+                    rezultat = FSY.MathSo(a, b);
+                    textBox1.Text = rezultat.ToString();
+                    label1.Text = "Ответ: " + rezultat;
+                    break;
+                case 17:
+                    rezultat = algebr.SummaKub(a, b);
+                    textBox1.Text = rezultat.ToString();
+                    label1.Text = "Ответ: " + rezultat;
+                    break;
+                case 18:
+                    rezultat = algebr.Rasnos(a, b);
+                    textBox1.Text = rezultat.ToString();
+                    label1.Text = "Ответ: " + rezultat;
+                    break;
 
                 default:
                     break;
@@ -472,6 +495,30 @@ namespace WindowsFormsApplication2
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт -  Нахождение квадрата суммы";
+            rez = 15;
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт -  Нахождение квадрата разности";
+            rez = 16;
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт -  Нахождение  куб суммы";
+            rez = 17;
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт -  Нахождение  разность кубов";
+            rez = 18;
         }
 
         private void button20_Click(object sender, EventArgs e)
