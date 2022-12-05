@@ -36,3 +36,14 @@ C:\Users\Nikita\Desktop\WindowsFormsApplication2(5)\WindowsFormsApplication2\obj
 C:\Users\Nikita\Desktop\WindowsFormsApplication2(5)\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.CoreCompileInputs.cache
 C:\Users\Nikita\Desktop\WindowsFormsApplication2(5)\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
 C:\Users\Nikita\Desktop\WindowsFormsApplication2(5)\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+C:\Users\a105.PSPUNET\Desktop\123\normnazvanie\WindowsFormsApplication2(5)\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\a105.PSPUNET\Desktop\123\normnazvanie\WindowsFormsApplication2(5)\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\a105.PSPUNET\Desktop\123\normnazvanie\WindowsFormsApplication2(5)\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\a105.PSPUNET\Desktop\123\normnazvanie\WindowsFormsApplication2(5)\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.AssemblyReference.cache
+C:\Users\a105.PSPUNET\Desktop\123\normnazvanie\WindowsFormsApplication2(5)\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.SuggestedBindingRedirects.cache
+C:\Users\a105.PSPUNET\Desktop\123\normnazvanie\WindowsFormsApplication2(5)\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\a105.PSPUNET\Desktop\123\normnazvanie\WindowsFormsApplication2(5)\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\a105.PSPUNET\Desktop\123\normnazvanie\WindowsFormsApplication2(5)\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.GenerateResource.cache
+C:\Users\a105.PSPUNET\Desktop\123\normnazvanie\WindowsFormsApplication2(5)\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.CoreCompileInputs.cache
+C:\Users\a105.PSPUNET\Desktop\123\normnazvanie\WindowsFormsApplication2(5)\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+C:\Users\a105.PSPUNET\Desktop\123\normnazvanie\WindowsFormsApplication2(5)\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb

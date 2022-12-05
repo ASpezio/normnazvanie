@@ -20,7 +20,7 @@ namespace WindowsFormsApplication2
         public Form1()
         {
             InitializeComponent();
-            SetRoundedShape(control: textBox1, radius: 50); // Округление окна
+           /* SetRoundedShape(control: textBox1, radius: 50); // Округление окна
             SetRoundedShape(control: button0, radius: 50);
             SetRoundedShape(control: button1, radius: 50);
             SetRoundedShape(control: button2, radius: 50);
@@ -47,7 +47,7 @@ namespace WindowsFormsApplication2
             SetRoundedShape(control: button15, radius: 50);
             SetRoundedShape(control: button16, radius: 50);
             SetRoundedShape(control: button17, radius: 50);
-            SetRoundedShape(control: button18, radius: 50);
+            SetRoundedShape(control: button18, radius: 50);*/
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -430,7 +430,7 @@ namespace WindowsFormsApplication2
             rez = 9;
         }
 
-        static void SetRoundedShape(Control control, int radius)
+       /* static void SetRoundedShape(Control control, int radius)
         {
             System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
             path.AddLine(radius, 0, control.Width - radius, 0);
@@ -442,6 +442,6 @@ namespace WindowsFormsApplication2
             path.AddLine(0, control.Height - radius, 0, radius);
             path.AddArc(0, 0, radius, radius, 180, 90);
             control.Region = new Region(path);
-        }
+        }*/
     }
 }
