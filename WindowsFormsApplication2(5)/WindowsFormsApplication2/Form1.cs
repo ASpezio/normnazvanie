@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using ConsoleApp3;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using ConsoleApp1;
+using WorkWithClass;
 
 namespace WindowsFormsApplication2
 {
@@ -349,15 +350,34 @@ namespace WindowsFormsApplication2
                     textBox1.Text = rezultat.ToString();
                     label1.Text = "Ответ: " + rezultat;
                     break;
-                //case 10:
-                //    rezultat = QuadraticEquation(b, a, c);
-                //    textBox1.Text = rezultat.ToString();
-                //    label1.Text = "Ответ: " + rezultat;
-                //    break;
                 case 11:
                     otvet = QuadraticEquation.Korni(a.ToString(), b.ToString(), c.ToString());
                     textBox1.Text = otvet;
                     label1.Text = "Ответ: " + otvet;
+                    break;
+                case 10:
+                    Physics ph = new Physics(a, b, c);
+                    rezultat = ph.FormV();
+                    textBox1.Text = rezultat.ToString();
+                    label1.Text = "Ответ: " + rezultat;
+                    break;
+                case 12:
+                    Physics ph1 = new Physics(a, b, c);
+                    rezultat = ph1.FormV0();
+                    textBox1.Text = rezultat.ToString();
+                    label1.Text = "Ответ: " + rezultat;
+                    break;
+                case 13:
+                    Physics ph2 = new Physics(a, b, c);
+                    rezultat = ph2.FormA();
+                    textBox1.Text = rezultat.ToString();
+                    label1.Text = "Ответ: " + rezultat;
+                    break;
+                case 14:
+                    Physics ph3 = new Physics(a, b, c);
+                    rezultat = ph3.FormT();
+                    textBox1.Text = rezultat.ToString();
+                    label1.Text = "Ответ: " + rezultat;
                     break;
 
                 default:
@@ -425,15 +445,39 @@ namespace WindowsFormsApplication2
             rez = 11;
         }
 
+        private void button14_Click(object sender, EventArgs e)
+        {
+            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт -  Нахождение средней скорости";
+            rez = 10;
+        }
+
+        private void button20_Click_1(object sender, EventArgs e)
+        {
+            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт -  Нахождение начальной скорости";
+            rez = 12;
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт -  Нахождение ускорения";
+            rez = 13;
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт -  Нахождение времени";
+            rez = 14;
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void button20_Click(object sender, EventArgs e)
         {
             label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт - Дискриминант";
             rez = 11;
-        }
-
-        private void button14_Click(object sender, EventArgs e)
-        {
-            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString();
         }
 
         private void button16_Click(object sender, EventArgs e)
