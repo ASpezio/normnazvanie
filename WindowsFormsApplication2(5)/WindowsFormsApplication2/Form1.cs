@@ -402,6 +402,21 @@ namespace WindowsFormsApplication2
                     textBox1.Text = rezultat.ToString();
                     label1.Text = "Ответ: " + rezultat;
                     break;
+                case 19:
+                    rezultat = Fizik.Uprug(a, b, c);
+                    textBox1.Text = rezultat.ToString();
+                    label1.Text = "Ответ: " + rezultat;
+                    break;
+                case 20:
+                    rezultat = Fizik.Potencg(a, b, c);
+                    textBox1.Text = rezultat.ToString();
+                    label1.Text = "Ответ: " + rezultat;
+                    break;
+                case 21:
+                    rezultat = Fizik.Kinitet(a, b);
+                    textBox1.Text = rezultat.ToString();
+                    label1.Text = "Ответ: " + rezultat;
+                    break;
 
                 default:
                     break;
@@ -519,6 +534,24 @@ namespace WindowsFormsApplication2
         {
             label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт -  Нахождение  разность кубов";
             rez = 18;
+        }
+
+        private void button27_Click(object sender, EventArgs e)
+        {
+            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт -  Нахождение  упругости";
+            rez = 19;
+        }
+
+        private void button28_Click(object sender, EventArgs e)
+        {
+            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт -  Нахождение потенциальной энергии  ";
+            rez = 20;
+        }
+
+        private void button29_Click(object sender, EventArgs e)
+        {
+            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт -  Нахождение кинетической энергии  ";
+            rez = 21;
         }
 
         private void button20_Click(object sender, EventArgs e)

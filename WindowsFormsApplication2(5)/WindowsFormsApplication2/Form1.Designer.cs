@@ -62,6 +62,10 @@ namespace WindowsFormsApplication2
             this.label2 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button26 = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button22 = new System.Windows.Forms.Button();
@@ -70,10 +74,9 @@ namespace WindowsFormsApplication2
             this.button14 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
+            this.button27 = new System.Windows.Forms.Button();
+            this.button28 = new System.Windows.Forms.Button();
+            this.button29 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.SuspendLayout();
@@ -574,6 +577,9 @@ namespace WindowsFormsApplication2
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.Black;
+            this.tabPage1.Controls.Add(this.button29);
+            this.tabPage1.Controls.Add(this.button28);
+            this.tabPage1.Controls.Add(this.button27);
             this.tabPage1.Controls.Add(this.button26);
             this.tabPage1.Controls.Add(this.button25);
             this.tabPage1.Controls.Add(this.button24);
@@ -621,6 +627,50 @@ namespace WindowsFormsApplication2
             this.tabPage1.Size = new System.Drawing.Size(1340, 705);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
+            // 
+            // button26
+            // 
+            this.button26.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.button26.Location = new System.Drawing.Point(610, 509);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(94, 34);
+            this.button26.TabIndex = 41;
+            this.button26.Text = "a^3-b^3";
+            this.button26.UseVisualStyleBackColor = true;
+            this.button26.Click += new System.EventHandler(this.button26_Click);
+            // 
+            // button25
+            // 
+            this.button25.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button25.Location = new System.Drawing.Point(910, 469);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(94, 34);
+            this.button25.TabIndex = 40;
+            this.button25.Text = "(a+b)^3";
+            this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.button25_Click);
+            // 
+            // button24
+            // 
+            this.button24.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button24.Location = new System.Drawing.Point(810, 469);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(94, 34);
+            this.button24.TabIndex = 39;
+            this.button24.Text = "(a-b)^2";
+            this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
+            // 
+            // button23
+            // 
+            this.button23.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button23.Location = new System.Drawing.Point(710, 469);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(94, 34);
+            this.button23.TabIndex = 38;
+            this.button23.Text = "(a+b)^2";
+            this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
             // label4
             // 
@@ -706,49 +756,38 @@ namespace WindowsFormsApplication2
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             // 
-            // button23
+            // button27
             // 
-            this.button23.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button23.Location = new System.Drawing.Point(710, 469);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(94, 34);
-            this.button23.TabIndex = 38;
-            this.button23.Text = "(a+b)^2";
-            this.button23.UseVisualStyleBackColor = true;
-            this.button23.Click += new System.EventHandler(this.button23_Click);
+            this.button27.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button27.Location = new System.Drawing.Point(303, 602);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(94, 34);
+            this.button27.TabIndex = 42;
+            this.button27.Text = "Fупр";
+            this.button27.UseVisualStyleBackColor = true;
+            this.button27.Click += new System.EventHandler(this.button27_Click);
             // 
-            // button24
+            // button28
             // 
-            this.button24.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button24.Location = new System.Drawing.Point(810, 469);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(94, 34);
-            this.button24.TabIndex = 39;
-            this.button24.Text = "(a-b)^2";
-            this.button24.UseVisualStyleBackColor = true;
-            this.button24.Click += new System.EventHandler(this.button24_Click);
+            this.button28.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button28.Location = new System.Drawing.Point(203, 602);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(94, 34);
+            this.button28.TabIndex = 43;
+            this.button28.Text = "Eп";
+            this.button28.UseVisualStyleBackColor = true;
+            this.button28.Click += new System.EventHandler(this.button28_Click);
             // 
-            // button25
+            // button29
             // 
-            this.button25.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button25.Location = new System.Drawing.Point(910, 469);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(94, 34);
-            this.button25.TabIndex = 40;
-            this.button25.Text = "(a+b)^3";
-            this.button25.UseVisualStyleBackColor = true;
-            this.button25.Click += new System.EventHandler(this.button25_Click);
-            // 
-            // button26
-            // 
-            this.button26.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.button26.Location = new System.Drawing.Point(610, 509);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(94, 34);
-            this.button26.TabIndex = 41;
-            this.button26.Text = "a^3-b^3";
-            this.button26.UseVisualStyleBackColor = true;
-            this.button26.Click += new System.EventHandler(this.button26_Click);
+            this.button29.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button29.Location = new System.Drawing.Point(103, 602);
+            this.button29.Name = "button29";
+            this.button29.Size = new System.Drawing.Size(94, 34);
+            this.button29.TabIndex = 44;
+            this.button29.Text = "Eк";
+            this.button29.UseVisualStyleBackColor = true;
+            this.button29.Click += new System.EventHandler(this.button29_Click);
             // 
             // Form1
             // 
@@ -818,6 +857,9 @@ namespace WindowsFormsApplication2
         private System.Windows.Forms.Button button24;
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.Button button27;
+        private System.Windows.Forms.Button button28;
+        private System.Windows.Forms.Button button29;
     }
 }
 
