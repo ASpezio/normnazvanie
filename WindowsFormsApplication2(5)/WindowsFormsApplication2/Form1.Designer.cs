@@ -60,6 +60,7 @@ namespace WindowsFormsApplication2
             this.button1 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
@@ -178,7 +179,7 @@ namespace WindowsFormsApplication2
             this.button13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button13.Location = new System.Drawing.Point(486, 356);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(115, 80);
+            this.button13.Size = new System.Drawing.Size(114, 80);
             this.button13.TabIndex = 23;
             this.button13.Text = "R";
             this.button13.UseVisualStyleBackColor = false;
@@ -551,12 +552,22 @@ namespace WindowsFormsApplication2
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(485, 81);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(87, 20);
+            this.label2.TabIndex = 30;
+            this.label2.Text = "Геометрия";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1347, 540);
+            this.ClientSize = new System.Drawing.Size(1347, 812);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.button17);
@@ -632,6 +643,7 @@ namespace WindowsFormsApplication2
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Label label2;
     }
 }
 
