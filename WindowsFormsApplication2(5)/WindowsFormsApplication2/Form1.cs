@@ -25,7 +25,7 @@ namespace WindowsFormsApplication2
         public Form1()
         {
             InitializeComponent();
-           /* SetRoundedShape(control: textBox1, radius: 50); // Округление окна
+            /*SetRoundedShape(control: textBox1, radius: 50); // Округление окна
             SetRoundedShape(control: button0, radius: 50);
             SetRoundedShape(control: button1, radius: 50);
             SetRoundedShape(control: button2, radius: 50);
