@@ -80,6 +80,8 @@ namespace WindowsFormsApplication2
             this.button14 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button32 = new System.Windows.Forms.Button();
+            this.button33 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.SuspendLayout();
@@ -112,7 +114,7 @@ namespace WindowsFormsApplication2
             this.label1.Location = new System.Drawing.Point(22, 0);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(17, 25);
+            this.label1.Size = new System.Drawing.Size(21, 32);
             this.label1.TabIndex = 1;
             this.label1.Text = " ";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -578,7 +580,7 @@ namespace WindowsFormsApplication2
             this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
             this.label2.Location = new System.Drawing.Point(606, 88);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 29);
+            this.label2.Size = new System.Drawing.Size(147, 35);
             this.label2.TabIndex = 30;
             this.label2.Text = "Геометрия";
             // 
@@ -596,6 +598,8 @@ namespace WindowsFormsApplication2
             // 
             this.tabPage1.BackColor = System.Drawing.Color.DimGray;
             this.tabPage1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage1.BackgroundImage")));
+            this.tabPage1.Controls.Add(this.button33);
+            this.tabPage1.Controls.Add(this.button32);
             this.tabPage1.Controls.Add(this.button31);
             this.tabPage1.Controls.Add(this.button30);
             this.tabPage1.Controls.Add(this.button29);
@@ -642,10 +646,10 @@ namespace WindowsFormsApplication2
             this.tabPage1.Controls.Add(this.buttonmin);
             this.tabPage1.Controls.Add(this.buttondel);
             this.tabPage1.Controls.Add(this.buttonrav);
-            this.tabPage1.Location = new System.Drawing.Point(4, 29);
+            this.tabPage1.Location = new System.Drawing.Point(4, 34);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1340, 705);
+            this.tabPage1.Size = new System.Drawing.Size(1340, 700);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             // 
@@ -765,7 +769,7 @@ namespace WindowsFormsApplication2
             this.label4.Image = ((System.Drawing.Image)(resources.GetObject("label4.Image")));
             this.label4.Location = new System.Drawing.Point(610, 342);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 29);
+            this.label4.Size = new System.Drawing.Size(108, 35);
             this.label4.TabIndex = 37;
             this.label4.Text = "Физика";
             // 
@@ -777,7 +781,7 @@ namespace WindowsFormsApplication2
             this.label3.Image = ((System.Drawing.Image)(resources.GetObject("label3.Image")));
             this.label3.Location = new System.Drawing.Point(610, 212);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 29);
+            this.label3.Size = new System.Drawing.Size(109, 35);
             this.label3.TabIndex = 36;
             this.label3.Text = "Алгебра";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -846,16 +850,40 @@ namespace WindowsFormsApplication2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.LightSteelBlue;
             this.tabPage2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage2.BackgroundImage")));
-            this.tabPage2.Location = new System.Drawing.Point(4, 29);
+            this.tabPage2.Location = new System.Drawing.Point(4, 34);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1340, 705);
+            this.tabPage2.Size = new System.Drawing.Size(1340, 700);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             // 
+            // button32
+            // 
+            this.button32.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.button32.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button32.Location = new System.Drawing.Point(610, 420);
+            this.button32.Name = "button32";
+            this.button32.Size = new System.Drawing.Size(94, 34);
+            this.button32.TabIndex = 47;
+            this.button32.Text = "КПД";
+            this.button32.UseVisualStyleBackColor = false;
+            this.button32.Click += new System.EventHandler(this.button32_Click);
+            // 
+            // button33
+            // 
+            this.button33.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.button33.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button33.Location = new System.Drawing.Point(610, 460);
+            this.button33.Name = "button33";
+            this.button33.Size = new System.Drawing.Size(94, 34);
+            this.button33.TabIndex = 34;
+            this.button33.Text = "Q";
+            this.button33.UseVisualStyleBackColor = false;
+            this.button33.Click += new System.EventHandler(this.button33_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
@@ -927,6 +955,8 @@ namespace WindowsFormsApplication2
         private System.Windows.Forms.Button button29;
         private System.Windows.Forms.Button button30;
         private System.Windows.Forms.Button button31;
+        private System.Windows.Forms.Button button33;
+        private System.Windows.Forms.Button button32;
     }
 }
 

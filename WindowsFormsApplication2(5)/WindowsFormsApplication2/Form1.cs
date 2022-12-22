@@ -427,6 +427,16 @@ namespace WindowsFormsApplication2
                     textBox1.Text = rezultat.ToString();
                     label1.Text = "Ответ: " + rezultat;
                     break;
+                case 24:
+                    rezultat = Physic.Formula1(a,b,c,R);
+                    textBox1.Text = rezultat.ToString();
+                    label1.Text = "Ответ: " + rezultat;
+                    break;
+                case 25:
+                    rezultat = Physic.Formula2(a,b, c);
+                    textBox1.Text = rezultat.ToString();
+                    label1.Text = "Ответ: " + rezultat;
+                    break;
 
                 default:
                     break;
@@ -574,6 +584,18 @@ namespace WindowsFormsApplication2
         {
             label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт -  Нахождение куб разности ";
             rez = 23;
+        }
+
+        private void button32_Click(object sender, EventArgs e)
+        {
+            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт -  КПД для неидеального гидравлического пресса ";
+            rez = 24;
+        }
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт -  формула для количества теплоты необходимой для нагревания тела ";
+            rez = 25;
         }
 
         private void button20_Click(object sender, EventArgs e)

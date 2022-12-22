@@ -61,6 +61,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="MathSqrKashtanov.cs" />
+    <Compile Include="PhysicsFazlykhanov.cs" />
     <Compile Include="PhysicsKotov.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
