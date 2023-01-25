@@ -80,3 +80,13 @@ C:\Users\2505m\OneDrive\Рабочий стол\normnazvanie-main\WindowsFormsAp
 C:\Users\2505m\OneDrive\Рабочий стол\normnazvanie-main\WindowsFormsApplication2(5)\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
 C:\Users\2505m\OneDrive\Рабочий стол\normnazvanie-main\WindowsFormsApplication2(5)\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
 C:\Users\2505m\OneDrive\Рабочий стол\normnazvanie-main\WindowsFormsApplication2(5)\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\harde\Desktop\WindowsFormsApplication2(5)\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\harde\Desktop\WindowsFormsApplication2(5)\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\harde\Desktop\WindowsFormsApplication2(5)\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\harde\Desktop\WindowsFormsApplication2(5)\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.AssemblyReference.cache
+C:\Users\harde\Desktop\WindowsFormsApplication2(5)\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\harde\Desktop\WindowsFormsApplication2(5)\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\harde\Desktop\WindowsFormsApplication2(5)\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.GenerateResource.cache
+C:\Users\harde\Desktop\WindowsFormsApplication2(5)\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.CoreCompileInputs.cache
+C:\Users\harde\Desktop\WindowsFormsApplication2(5)\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+C:\Users\harde\Desktop\WindowsFormsApplication2(5)\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb

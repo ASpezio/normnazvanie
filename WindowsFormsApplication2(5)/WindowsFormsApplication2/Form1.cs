@@ -13,6 +13,8 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using ConsoleApp1;
 using WorkWithClass;
 using Project_K;
+using ConsoleApp26;
+using ConsoleApp27;
 
 
 
@@ -437,6 +439,27 @@ namespace WindowsFormsApplication2
                     textBox1.Text = rezultat.ToString();
                     label1.Text = "Ответ: " + rezultat;
                     break;
+                case 28:
+                    rezultat = MathTrapeznikov.MathPlTrap(a, b, c);
+                    textBox1.Text = rezultat.ToString();
+                    label1.Text = "Ответ: " + rezultat;
+                    break;
+                case 29:
+                    rezultat = MathTrapeznikov.MathSredLinTr(a, b, c, R);
+                    textBox1.Text = rezultat.ToString();
+                    label1.Text = "Ответ: " + rezultat;
+                    break;
+                case 26:
+                    rezultat = MathOputin.MathPlPoverPrParal(a, b, c);
+                    textBox1.Text = rezultat.ToString();
+                    label1.Text = "Ответ: " + rezultat;
+                    break;
+                case 27:
+                    rezultat = MathOputin.MathPlTr(a, b, c, R);
+                    textBox1.Text = rezultat.ToString();
+                    label1.Text = "Ответ: " + rezultat;
+                    break;
+
 
                 default:
                     break;
@@ -596,6 +619,30 @@ namespace WindowsFormsApplication2
         {
             label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт -  формула для количества теплоты необходимой для нагревания тела ";
             rez = 25;
+        }
+
+        private void button34_Click(object sender, EventArgs e)
+        {
+            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт - площадь поверхности правильного параллелепипеда";
+            rez = 26;
+        }
+
+        private void button37_Click(object sender, EventArgs e)
+        {
+            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт - Площадь треугольника по трем сторонам и полупериметра";
+            rez = 27;
+        }
+
+        private void button35_Click(object sender, EventArgs e)
+        {
+            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт - Площадь трапеции";
+            rez = 28;
+        }
+
+        private void button36_Click(object sender, EventArgs e)
+        {
+            label1.Text = "a =" + a.ToString() + ";" + "b =" + b.ToString() + ";" + "c =" + c.ToString() + ";" + "R =" + R.ToString() + " Выбран расчёт - Средняя линия трапеции";
+            rez = 29;
         }
 
         private void button20_Click(object sender, EventArgs e)
